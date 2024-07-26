@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  border: 1px solid #c1c1c1;
+  border: 1px solid ${(props) => props.theme.colorBorder};
   padding: 16px;
 `
 
 export const LinkButton = styled.a`
-  color: #aefff7;
+  color: ${(props) => props.theme.colorButtonText};
   font-size: 14px;
-  background-color: #141320;
+  background-color: ${(props) => props.theme.colorBackgroundButton};
   text-decoration: none;
   padding: 8px;
   display: inline-block;

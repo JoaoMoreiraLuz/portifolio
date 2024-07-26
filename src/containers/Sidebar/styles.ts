@@ -19,12 +19,13 @@ export const TitleProfile = styled(Title)`
 export const ThemeButton = styled.button`
   width: 100%;
   margin: 0 auto;
-  border-radius: 12px;
+  border-radius: 8px;
+  border: none;
   padding: 8px;
   font-size: 10px;
   font-weight: bold;
-  color: #aefff7;
-  background-color: #141320;
+  color: ${(props) => props.theme.colorButtonText};
+  background-color: ${(props) => props.theme.colorBackgroundButton};
   cursor: pointer;
 `
 
@@ -32,4 +33,9 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `

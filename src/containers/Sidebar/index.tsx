@@ -8,7 +8,11 @@ import {
   SidebarContainer,
 } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  themeChanger: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -19,7 +23,7 @@ const Sidebar = () => (
       <Description type="principal" fontSize={12}>
         Web developer
       </Description>
-      <ThemeButton>Trocar tema</ThemeButton>
+      <ThemeButton onClick={props.themeChanger}>Trocar tema</ThemeButton>
     </SidebarContainer>
   </aside>
 )
