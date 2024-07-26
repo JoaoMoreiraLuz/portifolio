@@ -6,9 +6,9 @@ export const Card = styled.div`
 `
 
 export const LinkButton = styled.a`
-  color: #e0219b;
+  color: #aefff7;
   font-size: 14px;
-  background-color: #2a2139;
+  background-color: #141320;
   text-decoration: none;
   padding: 8px;
   display: inline-block;

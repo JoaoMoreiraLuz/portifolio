@@ -11,8 +11,8 @@ const About = () => (
       possimus quaerat soluta quod excepturi ea! Atque a autem optio quod?
     </Paragraph>
     <GithubSection>
-      <img src="https://github-readme-stats.vercel.app/api?username=JoaoMoreiraLuz&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMoreiraLuz&layout=compact&langs_count=7&theme=synthwave" />
+      <img src="https://github-readme-stats.vercel.app/api?username=JoaoMoreiraLuz&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoMoreiraLuz&layout=compact&langs_count=7&theme=radical" />
     </GithubSection>
   </section>
 )
